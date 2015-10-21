@@ -1,4 +1,6 @@
-package com.example.guest.band;
+package com.example.guest.band.models;
+
+import com.example.guest.band.models.BandMember;
 
 import java.util.ArrayList;
 

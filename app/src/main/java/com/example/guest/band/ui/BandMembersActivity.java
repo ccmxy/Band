@@ -1,12 +1,14 @@
-package com.example.guest.band;
+package com.example.guest.band.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.guest.band.R;
+import com.example.guest.band.models.BandMember;
+import com.example.guest.band.models.BandMembersLib;
 
 public class BandMembersActivity extends AppCompatActivity {
     private TextView mBandMemberName;

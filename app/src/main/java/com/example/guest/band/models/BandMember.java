@@ -1,4 +1,4 @@
-package com.example.guest.band;
+package com.example.guest.band.models;
 
 /**
  * Created by Guest on 10/21/15.
