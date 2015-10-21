@@ -35,4 +35,13 @@
         android:layout_alignRight="@+id/bandMembersButton"
         android:layout_alignEnd="@+id/bandMembersButton"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tour Dates"
+        android:id="@+id/tourDatesButton"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/bandMembersButton"
+        android:layout_alignStart="@+id/bandMembersButton"/>
+
 </RelativeLayout>

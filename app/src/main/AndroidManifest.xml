@@ -40,6 +40,10 @@
             android:name=".ui.discography"
             android:label="@string/title_activity_discography" >
         </activity>
+        <activity
+            android:name=".ui.TourDatesActivity"
+            android:label="@string/title_activity_tour_dates" >
+        </activity>
     </application>
 
 </manifest>

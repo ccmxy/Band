@@ -13,6 +13,7 @@ import com.example.guest.band.R;
 public class MainActivity extends AppCompatActivity {
     private Button mBandMembersButton;
     private Button mDiscographyButton;
+    private Button mTourDatesButton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         mBandMembersButton = (Button) findViewById(R.id.bandMembersButton);
         mDiscographyButton = (Button) findViewById(R.id.discographyButton);
+        mTourDatesButton = (Button) findViewById(R.id.tourDatesButton);
 
         mBandMembersButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -34,6 +36,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, discography.class);
+                startActivity(intent);
+            }
+        });
+        mTourDatesButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TourDatesActivity.class);
                 startActivity(intent);
             }
         });
