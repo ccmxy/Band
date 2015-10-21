@@ -13,9 +13,11 @@
         android:layout_height="wrap_content"
         android:text="Member Name"
         android:id="@+id/bandMemberName"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:textSize="34sp"/>
+        android:textSize="12sp"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/nextButton"
+        android:layout_toEndOf="@+id/nextButton"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -25,12 +27,25 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
 
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bandHeader"
+        android:layout_gravity="center"/>
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/nextButton"
-        android:layout_below="@+id/bandMemberName">
+        android:layout_below="@+id/bandHeader"
+
+        android:id="@+id/spicePhotoLayout">
+
+
+
 
         <ImageView
             android:layout_width="wrap_content"
@@ -38,6 +53,7 @@
             android:id="@+id/bandMemberImage"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"/>
+
     </RelativeLayout>
 
 </RelativeLayout>
