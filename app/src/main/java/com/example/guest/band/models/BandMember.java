@@ -5,16 +5,23 @@ package com.example.guest.band.models;
  */
 public class BandMember {
     private String mName;
+    private int mImage;
 
     //default constructor
-    public BandMember(String name){
+    public BandMember(String name, int image){
         mName = name;
+        mImage = image;
     }
 
     //Return the name of band member
     public String getName() {
         return mName;
     }
+
+    public int getImage() {
+        return mImage;
+    }
+
 
 
 }

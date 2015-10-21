@@ -1,5 +1,6 @@
 package com.example.guest.band.models;
 
+import com.example.guest.band.R;
 import com.example.guest.band.models.BandMember;
 
 import java.util.ArrayList;
@@ -36,19 +37,24 @@ public class BandMembersLib {
         mBandMemberArrayList = new ArrayList<>();
 
         mBandMemberArrayList.add(new BandMember(
-                "Scary"
+                "Scary",
+                R.drawable.scary
         ));
         mBandMemberArrayList.add(new BandMember(
-                "Sporty"
+                "Sporty",
+                R.drawable.sporty
         ));
         mBandMemberArrayList.add(new BandMember(
-                "Posh"
+                "Posh",
+                R.drawable.posh
         ));
         mBandMemberArrayList.add(new BandMember(
-                "Ginger"
+                "Ginger",
+                R.drawable.ginger
         ));
         mBandMemberArrayList.add(new BandMember(
-                "Baby"
+                "Baby",
+                R.drawable.baby
         ));
     }
 
