@@ -6,11 +6,13 @@ package com.example.guest.band.models;
 public class BandMember {
     private String mName;
     private int mImage;
+    private int mHeaderImage;
 
     //default constructor
-    public BandMember(String name, int image){
+    public BandMember(String name, int image, int headerImage){
         mName = name;
         mImage = image;
+        mHeaderImage = headerImage;
     }
 
     //Return the name of band member
@@ -21,6 +23,8 @@ public class BandMember {
     public int getImage() {
         return mImage;
     }
+
+    public int getHeaderImage() {return mHeaderImage;}
 
 
 

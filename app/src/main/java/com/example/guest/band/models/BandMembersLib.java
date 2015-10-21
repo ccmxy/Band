@@ -38,23 +38,28 @@ public class BandMembersLib {
 
         mBandMemberArrayList.add(new BandMember(
                 "Scary",
-                R.drawable.scary
+                R.drawable.scary,
+                R.drawable.scary_header
         ));
         mBandMemberArrayList.add(new BandMember(
                 "Sporty",
-                R.drawable.sporty
+                R.drawable.sporty,
+                R.drawable.sporty_header
         ));
         mBandMemberArrayList.add(new BandMember(
                 "Posh",
-                R.drawable.posh
+                R.drawable.posh,
+                R.drawable.posh_header
         ));
         mBandMemberArrayList.add(new BandMember(
                 "Ginger",
-                R.drawable.ginger
+                R.drawable.ginger,
+                R.drawable.ginger_header
         ));
         mBandMemberArrayList.add(new BandMember(
                 "Baby",
-                R.drawable.baby
+                R.drawable.baby,
+                R.drawable.baby_header
         ));
     }
 

@@ -15,6 +15,7 @@ import com.example.guest.band.models.BandMembersLib;
 public class BandMembersActivity extends AppCompatActivity {
     private TextView mBandMemberName;
     private ImageView mBandMemberImage;
+    private ImageView mBandHeaderImage;
     private Button mNextButton;
     private BandMember mCurrentBandMember;
     private BandMembersLib mBandMembersLib;
@@ -27,6 +28,8 @@ public class BandMembersActivity extends AppCompatActivity {
 
         mBandMemberName = (TextView) findViewById(R.id.bandMemberName);
         mBandMemberImage = (ImageView) findViewById(R.id.bandMemberImage);
+        mBandHeaderImage = (ImageView) findViewById(R.id.bandHeader);
+
         mNextButton = (Button) findViewById(R.id.nextButton);
         mBandMembersLib = new BandMembersLib();
         mCurrentBandMember = mBandMembersLib.getBandMembers().get(0);
@@ -44,5 +47,6 @@ public class BandMembersActivity extends AppCompatActivity {
     private void setTheContent() {
         mBandMemberName.setText(mCurrentBandMember.getName());
         mBandMemberImage.setImageResource(mCurrentBandMember.getImage());
+        mBandHeaderImage.setImageResource(mCurrentBandMember.getHeaderImage());
     }
 }
