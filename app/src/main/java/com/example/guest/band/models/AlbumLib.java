@@ -1,5 +1,7 @@
 package com.example.guest.band.models;
 
+import com.example.guest.band.R;
+
 import java.util.ArrayList;
 
 /**
@@ -23,13 +25,17 @@ public class AlbumLib {
 
         //Creating albums with the default album constructor and adding to list
         mAlbumsList.add(new Album(
-                "Spice"
+                "Spice",
+                R.drawable.spice
         ));
         mAlbumsList.add(new Album(
-                "Spiceworld"
+                "Spiceworld",
+                R.drawable.spiceworld
+
         ));
         mAlbumsList.add(new Album(
-                "Forever"
+                "Forever",
+                R.drawable.forever
         ));
 
     }

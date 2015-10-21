@@ -6,14 +6,21 @@ package com.example.guest.band.models;
 public class Album {
 
     private String mName;
+    private int mImage;
 
     //Return the name of band member
     public String getName() {
         return mName;
     }
 
-    public Album(String name) {
+    public int getImage() {
+        return mImage;
+    }
+
+
+    public Album(String name, int image) {
         mName = name;
+        mImage = image;
     }
 
 }

@@ -23,7 +23,7 @@ public class BandMembersActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_band_members);
+       setContentView(R.layout.activity_band_members);
 
         mBandMemberName = (TextView) findViewById(R.id.bandMemberName);
         mBandMemberImage = (ImageView) findViewById(R.id.bandMemberImage);
